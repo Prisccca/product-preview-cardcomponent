@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f3eae3;
+
+}
+
+.container {
+    width: 720px;
+    display: flex;
+    box-shadow: 5px 10px 10px #aaaaaa;
+    border-radius: 20px;
+    
+}
+
+.image {
+    width: 360px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+h1 {
+    font-family: 'Fraunces',sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Fraunces',sans-serif;
+    color: #3d8168;
+    font-weight: 700;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.info-product {
+    width: 360px;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+    padding: 20px;
+}
+
+.info-product p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    color: #6c7289;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
+
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #3d8168;
+    border-style: none;
+    color: #fff;
+    box-shadow: 5px 10px 10px #aaaaaa;
+}
+
+.btn:hover {
+    background-color:#1B402e ;
+}
+
+.btn:focus {
+    background-color:#1B402e ;
+    outline: 0;
+}
+
+.btn h4 {
+    letter-spacing: 1px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+
+
+small {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:line-through;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #6c7289;
+
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 75px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        overflow: scroll;
+    }
+
+}
