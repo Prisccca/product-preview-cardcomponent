@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-[Vercel]()
+[Vercel](https://product-preview-cardcomponent.vercel.app/)
 
 ## My process
 
